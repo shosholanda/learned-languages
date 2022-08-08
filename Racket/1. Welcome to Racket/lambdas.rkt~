@@ -1,0 +1,8 @@
+#lang racket
+
+;;FUNCIONES LAMBDA
+;;En este ejercicios veremos como pasasr funciones como parámetro.
+;;Definimos una funcion que aplica 2 veces una funcion
+(define (twice f v)
+  (f (f v)))
+

@@ -1,0 +1,54 @@
+<!--Todos los elementos (etiquetas) de html pueden tener atributos-->
+<!--Los atributos proveen de información adicional al  elemento-->
+<!--Siempre se especifican en el tag de inicio-->
+<!--Normalmente vienen en parejas de nombre="valor"-->
+
+<!DOCTYPE html>
+
+<!-- El atributo Lang nos permite decir el lenguaje de la página web. Es para ayudar a los traductores de páginas.-->
+<!-- lenguaje-PAÍS -->
+<html lang = "en-US">
+<head>
+    <title> Atributos de html </title>
+</head>
+<body>
+    <!--El atributo href (como vimos en el pasado, se usa para guardar un vínculo. Se escribe con la etiqueta <a>-->
+    <a href = "http://www.google.com"> Link a google </a>
+    
+    <!--El atributo src especifica la ruta de la imagen en la etiqueta <img>-->
+    
+    <!-- O también con la ruta relativa, desde el equipo. Se muestra el tamaño real de la imagen -->
+    <img src = "imagenes/porsche.jpg"> <!-- No necesita especificar terminar la etiqueta-->
+    
+    <!-- Podemos hacer 2 formas usar el src. con un URL Absoluto "literal, copiar pegar link"-->
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFZNZwDDpN5mOSds5NJ8DCj-XB7dwI890CA&usqp=CAU ">
+    <br>
+    
+    <!-- Podemos estrirar, agrandar o achicar una imagen utilizando los atributos width o height -->
+    <img src = "imagenes/porsche.jpg" width = "500" height = "500"> <!-- Aqui va a estirar la imágen -->
+    
+    <br>
+    <!-- O también por porcentaje de la imagen conforme a la ventana (100% = toda la ventana del navegador).-->
+    <img src = "imagenes/porsche.jpg" width = "70%" height = "100%">
+    
+    <br>
+    <!-- Si solo especificamos una, se conserva el aspect ratio (la escala pues)-->
+    <img src = "imagenes/porsche.jpg" width = "10%"> 
+    <br>
+    
+    <!-- El atributo alt especifica el texto que se muestra en lugar de la imagen, en caso de que no se pueda mostrar la imagnen (naturlamente para conexiones lentas)-->
+    <img src = "jaja.jos" alt = "Aquí había un carro bien bonito :C">
+    
+    
+    <!-- El atributo style nos permite camibar el color, fuente, tamaño y más del texto-->
+    <p style= "color:blue; "> Este texto es amarillo </p>
+    
+    <!-- El atributo title, nos da información adicional cuando el cursor se posa sobre el.-->
+    <p title = "Esto es un párrafo generado por lipsum">´ Pellentesque vehicula et dolor sed auctor. In efficitur vehicula euismod. Pellentesque at sem nec mi accumsan pharetra bibendum vel dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique sed diam id aliquet. Vivamus a aliquet neque, non tincidunt dui. Aliquam mattis urna leo, vel consectetur diam ultrices nec. Donec ornare vulputate nibh in egestas. Morbi et libero tempor, condimentum eros iaculis, sodales sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla eget libero eget ipsum fermentum bibendum eget facilisis ipsum. Pellentesque gravida ornare cursus. Quisque elementum bibendum nibh sit amet bibendum. Donec dictum malesuada erat, ac bibendum odio. </p>
+    
+    <!-- Podemos usar " y ', cuando querramos contener una dentro de otra-->
+    
+    
+</body>
+
+</html>
