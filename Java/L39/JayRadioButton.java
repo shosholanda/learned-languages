@@ -10,8 +10,10 @@ public class JayRadioButton extends JFrame implements ChangeListener {
     public JayRadioButton(){
         setLayout(null);
         
+        //Los radio buttons debemos de dar un conjunto para que al seleccionar uno, los demás del conjunto se deseleccionen automáticamente.
         bg = new ButtonGroup();
         
+        //Automáticamente se le aññade el label
         radio1 = new JRadioButton("640 x 480");
         radio1.setBounds(10, 20, 100, 30);
         radio1.addChangeListener(this);
@@ -26,6 +28,7 @@ public class JayRadioButton extends JFrame implements ChangeListener {
         
         radio3 = new JRadioButton("1024 x 768");
         radio3.setBounds(10, 120, 100, 30);
+        //El change listener es cuando queremos que ejecute una accion inmediatamente cambiando el radiobox
         radio3.addChangeListener(this);
         add(radio3);
         bg.add(radio3);
