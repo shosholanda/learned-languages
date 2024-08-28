@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/**
+ * Problema Realizar la carga del lado de un cuadrado, mostrar por pantalla el 
+ * perímetro del mismo (el perímetro de un cuadrado se calcula multiplicando el valor del lado por 4)
+ */
 public class PerimetroCuadrado {
 
   public static void main (String[] args) {

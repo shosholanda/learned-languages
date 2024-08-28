@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Realizar un programa que lea cuatro valores numéricos e informar su suma y promedio.
+ */
 public class SumaYPromedio {
 
   public static void main (String[] args) {

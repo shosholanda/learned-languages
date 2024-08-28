@@ -1,8 +1,12 @@
 import java.util.Scanner;
-
+/**
+ * Problema: Realizar la carga de dos números enteros por teclado e imprimir su suma
+ * y su producto.
+ */
 public class SumaProductoNumeros {
 
   public static void main (String[] args){
+    //Creamos un objeto Scanner que recibe la entrada estándar (por terminal)
     Scanner teclado = new Scanner (System.in);
     int num1, num2, suma, producto;
     System.out.println("Ingrese el primer número:");
